@@ -1,0 +1,21 @@
+﻿Dependencies used:
+
+- pillow =5.3.0
+- torch = 0.4.0
+- torchvision = 0.2.1
+
+Deep Learning FrameWork Used
+- PyTorch
+
+Dataset Used
+- Plant Village dataset
+
+Model to implement image feature
+- torchvision.models
+
+Model Used
+- Microsoft’s Residual Networks architecture: Resnet-152
+Reason: This kind of model was trained on a large dtaset to solve a similar problem.
+- This model was run with 10 epochs and Adam optimizer was used with a learning rate of 0.001
+
+  
